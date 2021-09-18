@@ -1,0 +1,435 @@
+@media only screen and (max-width: 1169px)
+{
+body
+    {
+      font-size: 18px;
+    }
+.block1,.block2,.block3
+{
+    width:28%;
+    height: 300px;
+    padding: 0.7% 2%;
+    margin-left:5vw ;
+    
+    
+}
+.block3
+    {
+        line-height: 140%;
+    }
+.block2
+    {
+        
+        font-size: 80%;
+    }
+.topper
+    {
+      height:45%;
+       width:55%;
+    }    
+.row.notice-topper-implinks
+{
+   width:80%;
+    margin-top: 6vh;
+    border: 1px solid transparent;
+}
+.vline
+    {
+        height:200px;
+        width: 1.5px;
+    }
+.box
+{
+    padding-left: 5vw;
+}
+}
+
+
+@media only screen and (max-width: 1000px)
+{
+    body
+    {
+      font-size: 17px;
+    }
+.vline
+    {
+        height:170px;
+        width: 1.5px;
+    }  
+.block1,.block2,.block3
+{
+    width:30%;
+    height: 300px;
+    padding: 0.7% 2%;
+    margin-left:3.5vw ;
+    
+    
+}   
+.logo
+    {
+        height: 120px;
+    }
+}
+@media only screen and (max-width: 940px)
+{
+ body
+    {
+     font-size: 15px;
+    }
+/*-------------------mobile-nav------------------------
+.menu
+    {
+        float:left;
+        margin-top: 20px;
+        display: none;
+    }
+.menu li
+    {
+        display: block;
+      
+    }
+.menu li a,.sticky .menu li a
+    {
+        display: block;
+        border:0;
+        padding:2px;
+        font-size: 110%;
+        line-height: 170%;
+    }
+.nav-icon
+    {
+        height:50px;
+       float:right;
+       margin-top:10px;
+        display: block;
+        cursor: pointer;
+    
+}
+.logo
+    {
+        height: 110px;
+    }
+.sticky .menu
+    {
+        float: left;
+    }
+--------------------------------------------------------*/
+.menu li
+    {
+        margin-left: 12px;
+    }
+.menu li a
+    {
+        font-size: 115%
+    }
+.block1,.block2,.block3
+{
+    height: 250px;
+}
+.logo
+    {
+        height: 100px;
+    }
+} 
+@media only screen and (max-width: 800px)
+{
+
+body
+    {
+        font-size:14px;
+    }
+  .lecture
+    {
+        height: 230px;
+        margin-left: 20px;
+    }  
+.sticky .logo
+    {
+        margin-left: 20px;
+    }
+
+}
+@media only screen and (max-width: 700px)
+{
+    .block1,.block2,.block3
+{
+    width:31%;
+    height: 250px;
+    padding: 0.7% 2%;
+    margin-left:2vw ;
+    
+    
+}
+    body
+    {
+        font-size: 13.5px;
+    }
+    .logo
+    {
+        height: 90px;
+        margin-top: 10px;
+    }
+    .sticky .logo
+    {
+        height: 35px;
+    }
+    .row.notice-topper-implinks
+    {
+        width:90%;
+    }
+}
+
+@media only screen and (max-width: 630px)
+{
+    body
+    {
+        font-size: 13px;
+    }
+    .menu
+    {
+        float:right;
+        margin-top: 20px;
+        display: none;
+    }
+.menu li
+    {
+        display: block;
+      
+    }
+.menu li a,.sticky .menu li a
+    {
+        display: block;
+        border:0;
+        padding:2px;
+        font-size: 110%;
+        line-height: 170%;
+    }
+.nav-icon
+    {
+        height:35px;
+       float:right;
+       margin-top:10px;
+        display: block;
+        cursor: pointer;
+    
+}
+.logo
+    {
+        height: 80px;
+    }
+}
+@media only screen and (max-height: 300px) and (max-width: 620px)
+{
+    body{
+        font-size: 11px
+    }
+    .sname
+    {
+        top:47%;
+    }
+    .logo
+    {
+        height:70px;
+        margin-top: 10px;
+    }
+    .menu
+    {
+        margin-top: 25px;
+    }
+    footer
+    {
+        height: 80vh;
+    }
+    .menu li a,.sticky .menu li a
+    {
+        display: block;
+        border:0;
+        padding:1px 40px;
+        font-size: 92%;
+        line-height: 140%;
+    }
+    .vline
+    {
+        height:150px;
+        width: 1.5px;
+    }
+    .lecture
+    {
+        height: 200px;
+        margin-left: 20px;
+    }  
+    .block1,.block2,.block3
+    {
+    width:31%;
+    height: 200px;
+    padding: 0.7% 2%;
+    margin-left:2vw ;
+    
+    
+    }
+}
+@media only screen and (max-width: 552px)
+{
+    body
+    {
+        font-size: 12px;
+    }
+    .block1,.block2,.block3
+    {
+    width:32%;
+    height: 230px;
+    padding: 0.7% 2%;
+    margin-left:1vw ;
+}
+ @media only screen and (max-width: 500px)
+ {
+     body
+     {
+         font-size:11.5px;
+     }
+     .section2
+     {
+         margin-top: 25px;
+         width: 95%;
+     }
+     .section2-icons
+{
+    width:23%;
+    display: block;
+    font-size: 70%;
+}
+     .about-us-heading
+{
+    font-size: 160%;
+    margin-left: 5%;
+    font-style: italic;
+    font-weight: 300;
+}
+.about-us-content
+{
+    font-size:85%;
+    margin:4% 2% 0% 10%;
+    text-align: justify;
+    line-height: 150%;
+    font-style: italic;
+}
+     .content
+     {
+         width:100%;
+         font-size: 150%;
+     }
+     .person-image
+     {
+         width:100%;
+         text-align: center;
+         margin-top: 30px;
+     }
+     .block1,.block2,.block3
+    {
+    width:70%;
+    height: 235px;
+    padding: 0.7% 2%;
+    margin-top:20px;
+        font-size:130%
+}
+     .block1,.block3
+     {
+         float:right;
+         background-image:linear-gradient(45deg,rgba(230, 129, 42, 0.5),white);
+     }
+     .block2
+     {
+         float:left;
+         background-image:linear-gradient(-45deg,rgba(230, 129, 42, 0.5),white);
+     }
+     .hide
+     {
+         display: none;
+     }
+     .hide1
+     {
+         float: left;
+         line-height:150%;
+         width:45vw
+        
+     }
+     .hide2
+     {
+         float:right;
+        width:50vw;
+         line-height:180%
+     }
+     footer
+     {
+         height:50vh;
+     }
+     .nav-icon
+    {
+        height:50px;
+       float:right;
+       margin-top:15px;
+        display: block;
+        cursor: pointer;
+    
+}
+    .sticky .nav-icon
+    {
+        height:35px;
+       float:right;
+       margin-top:10px;
+        display: block;
+        cursor: pointer;
+    
+}
+    }
+    @media only screen and (max-width: 360px)
+    {
+        body
+        {
+            font-size:10px
+        }
+        .sname
+{
+    top: 53%;
+    left: 6%;
+    font-size:270%;
+    text-transform:uppercase;
+}
+.school
+{
+    top:60%;
+    left: 14%;
+    font-size:270%;
+    font-weight: 150;
+   
+        }
+        .lecture
+    {
+        height: 170px;
+        margin-left: 20px;
+    }  
+        header
+        {
+            height: 80vh;
+        }
+    }
+    @media only screen and (max-width:274px)
+    {
+    body
+{
+    font-size: 9px;
+        }
+    }
+    @media only screen and (max-width: 249px)
+    {
+      .sname
+{
+    font-size:240%;
+
+}
+.school
+{
+    font-size:240%;
+    font-weight: 150;
+        }  
+    }
