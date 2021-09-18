@@ -1,0 +1,360 @@
+/*orange #ce762a */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body
+{
+ font-weight: 300px;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    margin-top: 0;
+}
+.row
+{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/*-------------------HEADER-----------------*/
+header
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(img/background-image.jpg);
+    height: 88vh;
+    width:auto;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.sname
+{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    font-size:300%;
+    color: #ffffff;
+    font-weight: 150;
+    text-transform:uppercase;
+    letter-spacing: 0px;
+    word-spacing: 5px;
+    font-family: 'Lato', sans-serif;
+    line-height: 130%; 
+    margin: 0;
+}
+.school
+{
+    position:absolute;
+    top:60%;
+    left: 17%;
+    font-size:300%;
+    color: #ffffff;
+    font-weight: 150;
+    text-transform:uppercase;
+    letter-spacing: 0px;
+    word-spacing: 5px;
+    font-family: 'Lato', sans-serif;
+    line-height: 130%; 
+    border-bottom:1.5px solid #ce762a;
+    margin: 0;
+}
+.logo
+{
+    float: left;
+    margin-left: 5vw;
+    height: 130px;
+    
+}
+.menu{
+    float: right;
+    margin-top: 50px;
+}
+.menu li
+{
+    display: inline-block;
+    margin-left:20px;
+
+}
+.menu li a
+{
+    text-decoration: none;
+    font-size: 130%;
+    color: #fff;
+    font-family:sans-serif;
+    font-weight: 400;
+    padding: 7px 0;
+    border-bottom: 1px solid transparent;
+}
+.menu li a:hover 
+{
+     border-bottom: 2px solid #ce762a;
+    
+}
+nav .row
+{
+    margin:0px 5vh;
+    max-width: 100vw; 
+}
+.nav-icon
+{
+    height:50px;
+    float:right;
+    margin-top:40px;
+    display: none;
+}
+/*------------sticky-nav--------------------*/
+.sticky
+{
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(242, 239, 237, 0.98);
+    border-bottom: 3px solid rgba(193, 180, 180, 0.53);
+    z-index: 9999;
+}
+.sticky .menu li a
+{
+    text-decoration: none;
+    font-size: 105%;
+    color: #000;
+    font-family:sans-serif;
+    font-weight: 350;
+    padding: 10px 0;
+    border-bottom: 1px solid transparent;
+}
+.sticky .logo
+{
+    height:50px;
+    margin-top: 2px;
+    margin-left: 150px;
+}
+.sticky .menu 
+{
+    float: right;
+    margin-top:15px;
+    margin-right: 70px;
+
+}
+.sticky .menu li a:hover 
+{
+     border-bottom: 1.5px solid #ce762a;
+    
+}
+/*------------Admission-open*--------------------*/
+.admission-open .row 
+{
+    text-align: center;
+    line-height: 100%;
+}
+.admission-open .row h1 a
+{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    border: 3px solid #ce762a;
+    padding: 15px 15px;
+    border-radius: 30px;
+    font-size: 90%;
+    font-weight: 600;
+}
+.admission-open .row h1 a:hover
+{
+    background-image: linear-gradient(to right,rgba(244, 155, 79, 0.52),#fff);
+}
+.admission-open .row h3
+{
+    border:1px solid transparent;
+}
+.admission-open .row h3:after
+{
+    display:block;
+    height: 3px;
+    background-color: #ce762a;
+    content:" ";
+    width: 9vw;
+    margin: 0 auto;
+    margin-top: 7px; 
+    font-size: 80%;
+    font-family: 'Lato', sans-serif;
+    
+}
+/*------------animation----admission-open--------------------*/
+
+.js--admission-open h1,
+.js--admission-open h3
+{
+    opacity: 0;
+}
+.js--admission-open h1.animated,
+.js--admission-open h3.animated
+{
+    opacity: 1;
+}
+
+
+/*-------------------admission staff infra and gallery-------------*/
+.section2
+{
+    margin-top: 8vh;
+    text-align: center;
+    line-height: 250%;
+    font-size: 140%;
+}
+.img1
+{
+height: 40%;
+    width: 40%;
+    display: block;
+   margin-left: 30%;
+}
+.img1:hover
+{
+    margin-left: 25%;
+}
+.section2-icons
+{
+    display: block;
+    font-size: 80%;
+}
+/*----------About school and lecture image-----------*/
+.row.section3
+{
+    max-width: 85vw;
+    margin-top: 7vh;
+}
+.lecture
+{
+    margin-left:30px;
+    height: 80%;
+    width:80%;
+    
+}
+.about-us-heading
+{
+    font-size: 165%;
+    margin-left: 10%;
+    font-style: italic;
+    font-weight: 100;
+}
+.about-us-content
+{
+    font-size:85%;
+    margin:4% 2% 0% 10%;
+    text-align: justify;
+    line-height: 150%;
+    font-style: italic;
+}
+.vline
+{
+    height:250px;
+    width:2px;
+    float:right;
+    background-color: rgba(206, 118, 42, 0.47);
+    margin-top:50px;
+}
+/*-------------notice-topper-implinks----------*/
+.row.notice-topper-implinks
+{
+   width:100%;
+    margin-top: 6vh;
+    
+}
+
+.topper
+    {
+      height:50%;
+       width:55%;
+    }
+.block1,.block2,.block3
+{
+    width:30%;
+    text-align:center;
+    height: 370px;
+    border-radius:30px;
+    background-image:linear-gradient(rgba(230, 129, 42, 0.42),white);
+    box-shadow: 2px 2px 6px rgba(154, 88, 31, 0.57);
+    margin-left:4%;
+    padding:2%;
+}
+.block2
+{
+    opacity: 0;
+}
+ .animated.block2
+     {
+         opacity: 1;
+     }
+.block3 ul
+{
+    list-style-type: none;
+}
+.block3 ul li a,.block1 ul li a
+{
+    text-decoration: none;
+    border:1.5px solid transparent;
+    color:#000;
+    font-size: 70%;
+    
+}
+.block3 ul li a:hover,
+.block1 ul li a:hover
+{
+    border-bottom:1.5px solid #ce762a;
+}
+.block3
+{
+    line-height: 155%;
+    
+}
+.block1
+{
+  
+    text-align: center;
+    line-height: 100%;
+}
+/*------------------------footer--------------------*/
+footer
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(img/footer.jpg);
+    height: 44vh;
+    width:auto;
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box
+{
+    padding-top: 20px;
+}
+.footer
+{
+    color: #fff;
+    line-height: 170%;
+    margin-top:30px;
+}
+.call,.social-media
+{
+    height:20px;
+    width:20px;
+}
+.box a
+{
+ text-decoration: none;
+    color:#fff;
+}
+.line
+{
+    width:90%;
+    height:1.5px;
+    background-color:#ce762a;
+    margin: 4% auto 0 auto;
+}
+.copyright
+{
+    text-align:right;
+    margin:2% 100px;
+    color:antiquewhite;
+}
